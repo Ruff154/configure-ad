@@ -24,8 +24,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
+- As of the first prerequisites an Azure account needs to be created through Microsoft the Microsoft Azure portal. 
+- Once your Azure account is created a Resource Group is needed to be able to house the Virtual machine. When creating the Virtual Machine ensure that all of the zones match.
 - Step 3
 - Step 4
 
