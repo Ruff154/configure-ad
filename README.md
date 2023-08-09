@@ -24,10 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- As of the first prerequisites an Azure account needs to be created through Microsoft the Microsoft Azure portal. The app Microsoft Remote Desktop will also need to be installed beforehand.
-- Once your Azure account is created a Resource Group is needed to be able to house the Virtual machine. When creating the Virtual Machine ensure that all of the zones match. An additional virtual machine will also need to be created. One of the VM's will be running windows while the other will be running Linux/Ubuntu. 
-- Once the virtual machine is created it will give a private IP address. The IP address will need to be entered into the VM for it to be able to work. 
-- Step 4
+- As of the first prerequisites an Azure account needs to be created through Microsoft the Microsoft Azure portal. If you are on Mac the app Microsoft Remote Desktop will also need to be installed beforehand. Once Microsoft Remote Desktop is installed a Resource Group and a Virtual Network (VNET) will need to be created on the Virtual Machine. 
+- For the second step there needs to be the assurnace that there is connectivity between the client and the Domain Controller. This can be done by logging into Remote Desktop and sending a ping with (ping -t). Logging back into the VM that was pinged can confirm whether the connection was successful or not.
+- Install Active Directory and once the installation is completed one of the VM's will need to be promoted. Once this is done setup a new forest as (canbeanything.com). 
+- Create an Admin and Normal User Account in Active Directory. In the Active Directory Users and Computers (ADUC) an Organizational Unit will need to be created. Once this is done users can start being added as admins.
 
 <h2>Deployment and Configuration Steps</h2>
 
