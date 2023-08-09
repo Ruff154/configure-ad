@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - As of the first prerequisites an Azure account needs to be created through Microsoft the Microsoft Azure portal. The app Microsoft Remote Desktop will also need to be installed beforehand.
-- Once your Azure account is created a Resource Group is needed to be able to house the Virtual machine. When creating the Virtual Machine ensure that all of the zones match. An additional virtual machine will also need to be created.
+- Once your Azure account is created a Resource Group is needed to be able to house the Virtual machine. When creating the Virtual Machine ensure that all of the zones match. An additional virtual machine will also need to be created. One of the VM's will be running windows while the other will be running Linux/Umbuntu. 
 - Once the virtual machine is created it will give a private IP address. The IP address will need to be entered into the VM for it to be able to work. 
 - Step 4
 
